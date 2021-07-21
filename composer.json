@@ -1,0 +1,29 @@
+{
+    "name": "gnepiew/laravel-permission",
+    "type": "library",
+    "description": "Permission handling for Laravel 6.0 and up",
+    "keywords": ["gnepiew", "laravel", "permission"],
+    "homepage": "https://github.com/gnepiew/laravel-permission",
+    "license": "MIT",
+    "require": {
+        "php" : "^7.3|^8.0",
+        "spatie/laravel-permission": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gnepiew\\Permission\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gnepiew\\Permission\\PermissionServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
